@@ -1,0 +1,59 @@
+.events-section {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.event-box {
+    width: 250px;
+    height: 200px;
+    background-color: #000821;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-box:hover {
+    transform: translateY(-5px);
+}
+
+.event-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.event-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.register-btn {
+    display: block;
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.register-btn:hover {
+    background-color: #0077cc;
+}
